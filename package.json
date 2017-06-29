@@ -16,7 +16,7 @@
   "_from": "https://github.com/TomerDevberg/cordova-plugin-local-notifications/tarball/master",
   "_id": "de.appplant.cordova.plugin.local-notification-sergeis-twist@0.8.4",
   "_inCache": true,
-  "_location": "/de.appplant.cordova.plugin.local-notification",
+  "_location": "/de.appplant.cordova.plugin.local-notification-sergeis-twist",
   "_phantomChildren": {},
   "_requested": {
     "raw": "https://github.com/TomerDevberg/cordova-plugin-local-notifications/tarball/master",
@@ -74,7 +74,7 @@
     "cordova-windows"
   ],
   "license": "Apache-2.0",
-  "name": "de.appplant.cordova.plugin.local-notification",
+  "name": "de.appplant.cordova.plugin.local-notification-sergeis-twist",
   "optionalDependencies": {},
   "platforms": [
     "ios",
