@@ -122,8 +122,9 @@ public class Builder {
 
         builder = new NotificationCompat.Builder(context)
                 .setDefaults(0)
-                .setContentTitle(options.getTitle())
-                .setContentText(options.getText())
+				.setStyle(new Notification.BigTextStyle(builder)
+				.bigText(options.getText())
+				.setBigContentTitle(options.getTitle()))
                 .setNumber(options.getBadgeNumber())
                 .setTicker(options.getText())
                 .setAutoCancel(options.isAutoClear())
@@ -131,7 +132,7 @@ public class Builder {
                 .setColor(options.getColor());
 
         if (ledColor != 0) {
-            builder.setLights(ledColor, options.getLedOnTime(), options.getLedOffTime());
+            builder.setLights(ledColor, 100, 100);
         }
 
         if (sound != null) {
